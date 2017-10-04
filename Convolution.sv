@@ -120,7 +120,7 @@ module Convolution(
 								outputCounter <= 0;
 								currentRowsCompleted <= 0;
 								prevRowsCompleted <= 0;
-									convDone <= 1'b0;
+								convDone <= 1'b0;
 							end
 				S_CONV		:	begin
 								convDone <= 1'b0;
