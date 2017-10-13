@@ -2,7 +2,8 @@
 
 	Author: Aniket Badhan
 	Description: Performing convolution with Sobel filter(3X3) for horizontal and vertical edges detection, as the second step in the convolution of the Canny Edge Detection algorithm
-
+			Sobel Horizontal Filter = {-1, 0, 1; -2, 0, 2; -1, 0, 1}
+			Sobel Vertical Filter = {-1, -2, -1; 0, 0, 0; 1, 2, 1}
 */
 
 `timescale 1ns/1ps
