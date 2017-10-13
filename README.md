@@ -5,4 +5,6 @@ This project is a part of the main project, Hardware acceleration of Canny Edge 
 
 This code implements the first 2 steps of Canny Edge Detection Algorithm, i.e., convolution with Guassian filter and Sobel filter.
 The reason for implementing the first 2 steps on hardware was to use hardware parallelism for acceleration.
-Convolution operation is time consuming and has scope for parellelism, and hence, implemented on hardware (Altera Cyclone 5 FPGA). 
+Convolution operation is time consuming and has scope for parellelism, and hence, implemented on hardware (Altera Cyclone 5 FPGA).
+
+Detailed information about the implementation can be found at https://github.com/AniketBadhan/Canny-Edge-Detection/blob/master/Canny%20Edge%20Detection%20Report.pdf
