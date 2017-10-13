@@ -76,7 +76,7 @@ always_comb begin
 					tempSum4 = bufferInput[counter1+8'd96]*filter_matrix[15] + bufferInput[counter1+8'd97]*filter_matrix[16] + bufferInput[counter1+8'd98]*filter_matrix[17] + bufferInput[counter1+8'd99]*filter_matrix[18] + bufferInput[counter1+8'd100]*filter_matrix[19];
 					tempSum5 = bufferInput[counter1+8'd128]*filter_matrix[20] + bufferInput[counter1+8'd129]*filter_matrix[21] + bufferInput[counter1+8'd130]*filter_matrix[22] + bufferInput[counter1+8'd131]*filter_matrix[23] + bufferInput[counter1+8'd132]*filter_matrix[24];
 					tempSum = tempSum1+tempSum2+tempSum3+tempSum4+tempSum5;
-					tempOutput = (tempSum >> 9) + (tempSum >> 8);
+					tempOutput = (tempSum >> 9) + (tempSum >> 8);	//division by 170.66
 					if(outputCounter < 29) begin
 						NS = S_CONV;
 					end
